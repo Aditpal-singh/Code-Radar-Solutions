@@ -2,9 +2,8 @@
 int main(){
 
     float x;
-    scanf("%d",x);
+    scanf("you entered: %d",x);
 
-    printf("you entered: %d",x);
 
     return 0;
 } 
