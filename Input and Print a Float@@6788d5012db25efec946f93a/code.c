@@ -2,8 +2,9 @@
 int main(){
 
     float x;
-    z = scanf("%f",&x);
-    float a = z
-    printf("you entered: %f",a);
+    scanf("%f",&x);
+    printf("you entered: %f",x);
+
+
     return 0;
 } 
