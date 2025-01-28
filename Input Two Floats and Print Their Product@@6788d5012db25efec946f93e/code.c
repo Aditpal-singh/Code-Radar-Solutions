@@ -9,5 +9,5 @@ int main()
     float z = x*y;
 
     printf("Product: %f",z);
-    return 0;
+
 }
