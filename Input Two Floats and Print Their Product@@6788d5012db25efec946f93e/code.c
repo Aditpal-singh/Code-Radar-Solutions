@@ -2,12 +2,10 @@
 
 int main()
 {
-    float x;
-    scanf("%f",&x);
-    float y;
-    scanf("%f",&y);
-    float z = x*y;
+    float x, y;
+    scanf("%f %f",&x, &y);
+    float z = x * y;
 
     printf("Product: %f",z);
-
+    return 0;
 }
