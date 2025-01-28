@@ -3,8 +3,8 @@ int main()
 {
     int x,y,z;
     scanf("%d %d %d", &x, &y, &z);
-    int a;
+    float a;
     a = (x+y+z)/3;
-    printf("%d", a);
+    printf("%0.2f", a);
     return 0;
 }
