@@ -11,9 +11,9 @@ int main()
     char hobby[50];
     scanf("%s",hobby);
 
-    
+
     printf("Name: %s",name);
-    printf("Age: %s",age);
+    printf("Age: %d",age);
     Printf("Hobby: %s",hobby);
     return 0;
 }
