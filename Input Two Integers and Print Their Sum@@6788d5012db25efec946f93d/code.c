@@ -7,6 +7,6 @@ int main() {
     z = x+y;
     printf("%d",z);
     
-    printf("%s", welcome());
+   
     return 0;
 }
