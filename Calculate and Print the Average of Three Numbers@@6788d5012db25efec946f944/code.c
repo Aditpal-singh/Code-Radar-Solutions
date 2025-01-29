@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() 
 {
-    int x,y,z;
-    scanf("%d %d %d", &x, &y, &z);
+    float x,y,z;
+    scanf("%f %f %f", &x, &y, &z);
     float a;
     a = (x+y+z)/3;
     printf("Average: %0.2f", a);
