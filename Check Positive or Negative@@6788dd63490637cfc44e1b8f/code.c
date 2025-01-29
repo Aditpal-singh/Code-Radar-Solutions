@@ -6,7 +6,7 @@ int main()
     scanf("%d",&x);
     if(x>0)
     {
-        printf("Postive");
+        printf("Positive");
     }
     else if(x<0)
     {
