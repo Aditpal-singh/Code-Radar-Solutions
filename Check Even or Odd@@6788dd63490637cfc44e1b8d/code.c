@@ -10,7 +10,7 @@ int main()
     }
     else
     {
-        printf("False");
+        printf("Odd");
     }
     return 0;
 }
