@@ -7,6 +7,10 @@ int main()
     {
         printf("Divisible");
     }
+    else if(x==0)
+    {
+        printf("Not Divisible");
+    }
     else
     {
         printf("Not Divisible");
