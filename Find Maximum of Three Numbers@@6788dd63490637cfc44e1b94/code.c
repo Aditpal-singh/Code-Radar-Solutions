@@ -16,7 +16,7 @@ int main()
     {
         printf("%d",z);
     }
-    elseif(x==y==z)
+    else if(x==y==z)
     {
         printf("%d",x);
     }
