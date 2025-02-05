@@ -8,7 +8,7 @@ int main() {
     int x;
     scanf("%d",&x);
 
-    if (1<x<100)
+    if (x<=100 && x>0)
     {
         printf("In Range");
     }
