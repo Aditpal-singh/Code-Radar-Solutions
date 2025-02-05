@@ -9,7 +9,7 @@ int main()
     int x,y;
     scanf("%d",&x, &y);
 
-    if(x^2==y)
+    if(x==y^2)
     {
         printf("Yes");
     }
