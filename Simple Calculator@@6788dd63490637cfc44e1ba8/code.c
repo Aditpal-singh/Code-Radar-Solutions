@@ -1,25 +1,26 @@
 #include <stdio.h>
 int main() 
 {   
-    char z;
+    
     int x,y;
-    scanf("%d %d %c",&x, &y, &z);
-
+    scanf("%d %d",&x, &y);
+    char z;
+    scanf("%c"&z)
     if(z=="+")
     {
-        printf("%d+%d=%c",x,y,x+y);
+        printf("%d+%d=%d",x,y,x+y);
     }
     else if(z=="-")
     {
-        printf("%d-%d=%c",x,y,x-y);
+        printf("%d-%d=%d",x,y,x-y);
     }
     else if(z=="*")
     {
-        printf("%d*%d=%c",x,y,x*y);
+        printf("%d*%d=%d",x,y,x*y);
     }
     else if(z== "/")
     {
-        printf("%d/%d=%c",x,y,x/y);
+        printf("%d/%d=%d",x,y,x/y);
     }
     return 0;
 }
