@@ -4,19 +4,19 @@ int main()
     int x,y,z;
     scanf("%d %d %d",&x, &y, &z);
 
-    if(z==+)
+    if(z=="+")
     {
         printf("%d+%d=%d",x,y,x+y);
     }
-    else if(z==-)
+    else if(z=="-")
     {
         printf("%d-%d=%d",x,y,x-y);
     }
-    else if(z==*)
+    else if(z=="*")
     {
         printf("%d*%d=%d",x,y,x*y);
     }
-    else if(z==/)
+    else if(z== "/")
     {
         printf("%d/%d=%d",x,y,x/y);
     }
