@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() 
-{
-    int x,y,z;
-    scanf("%d %d %d",&x, &y, &z);
+{   
+    char z;
+    int x,y;
+    scanf("%d %d %c",&x, &y, &z);
 
     if(z=="+")
     {
