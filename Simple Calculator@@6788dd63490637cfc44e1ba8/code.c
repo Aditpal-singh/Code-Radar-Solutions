@@ -7,19 +7,19 @@ int main()
 
     if(z=="+")
     {
-        printf("%d+%d=%d",x,y,x+y);
+        printf("%d+%d=%c",x,y,x+y);
     }
     else if(z=="-")
     {
-        printf("%d-%d=%d",x,y,x-y);
+        printf("%d-%d=%c",x,y,x-y);
     }
     else if(z=="*")
     {
-        printf("%d*%d=%d",x,y,x*y);
+        printf("%d*%d=%c",x,y,x*y);
     }
     else if(z== "/")
     {
-        printf("%d/%d=%d",x,y,x/y);
+        printf("%d/%d=%c",x,y,x/y);
     }
     return 0;
 }
