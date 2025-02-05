@@ -7,7 +7,7 @@ int main()
     {
         printf("Equilateral");
     }
-    else if(side1!=side2 && side2!=side3);
+    else if(side1!=side2 && side2!=side3)
     {
         printf("Scalene");
     }
