@@ -10,7 +10,7 @@ int main() {
     {
         printf("Go");
     }
-    else if (grade=='Y')
+    else if (sign=='Y')
     {
         printf("Slow Down");
     }
