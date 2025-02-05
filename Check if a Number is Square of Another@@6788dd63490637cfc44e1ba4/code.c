@@ -7,7 +7,7 @@ char* welcome() {
 int main() 
 {
     int x,y;
-    scanf("%d",&x, &y);
+    scanf("%d %d",&x, &y);
 
     if(x==y^2)
     {
