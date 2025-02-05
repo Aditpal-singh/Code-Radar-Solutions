@@ -5,13 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    int cost price , selling price;
-    scanf("%d %d",&cost price , &selling price);
-    if (cost price >selling price)
+    int costprice , sellingprice;
+    scanf("%d %d",&costprice , &sellingprice);
+    if (costprice >sellingprice)
     {
         printf("Loss")
     }
-    else if(cost price <selling price)
+    else if(costprice <sellingprice)
     {
         printf("Profit");
     }
