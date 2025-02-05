@@ -1,15 +1,11 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
+int main() 
+{
     int costprice , sellingprice;
     scanf("%d %d",&costprice , &sellingprice);
     if (costprice >sellingprice)
     {
-        printf("Loss")
+        printf("Loss");
     }
     else if(costprice <sellingprice)
     {
