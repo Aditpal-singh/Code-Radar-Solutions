@@ -9,7 +9,7 @@ int main()
     int x,y;
     scanf("%d",&x, &y);
 
-    if(x*x==y)
+    if(x*x=y)
     {
         printf("Yes");
     }
