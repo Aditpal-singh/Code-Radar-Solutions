@@ -3,8 +3,9 @@ int main()
 {   
     
     int x,y;
-    scanf("%d %d",&x, &y);
     char z;
+    scanf("%d %d",&x, &y);
+    
     scanf("%c",&z);
 
     if(z=='+')
