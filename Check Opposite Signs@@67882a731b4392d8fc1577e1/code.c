@@ -1,9 +1,4 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() 
 {
     int x,y;
@@ -14,8 +9,8 @@ int main()
         printf("True");
     }
     else
-    [
+    {
         printf("False");
-    ]
+    }
     return 0;
 }
