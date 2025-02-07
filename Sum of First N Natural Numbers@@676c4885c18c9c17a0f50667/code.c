@@ -11,7 +11,7 @@ int main()
 
     for(int i=1;i<=x;i=i+1)
     {
-        printf("%d(%d-1)/2",x,x);
+        printf("%d(%d-1)/2\n",x,x);
     }    
     return 0;
 }
