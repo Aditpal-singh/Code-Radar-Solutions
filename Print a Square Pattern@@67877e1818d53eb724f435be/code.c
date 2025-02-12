@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int length,breadth;
-    scanf("%d %d",&lenght, &breadth);
+    int length;
+    scanf("%d",&length);
 
     for(int i=1;i<=length;i=i+1)
     {   
         printf("\n");
-        for(int j=1;j<=breadth;j=j+1)
+        for(int j=1;j<=length;j=j+1)
         {
             printf("*");
         }
