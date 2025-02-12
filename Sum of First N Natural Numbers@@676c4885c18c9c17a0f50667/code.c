@@ -10,7 +10,8 @@ int main()
     for(int i=1;i<=x;i=i+1)
     {   
         a = a + i;
-        printf("%d",a);
+        
     }    
+        printf("%d",a);
     return 0;
 }
