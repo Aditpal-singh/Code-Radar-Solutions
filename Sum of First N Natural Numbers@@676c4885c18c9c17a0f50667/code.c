@@ -1,17 +1,14 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() 
 {
     int x;
     scanf("%d",&x);
 
-    for(int i=1;i<=x;i=i+1)
+    for(int i=1;i<=x;i=i+(i+1))
     {
-        printf("%d(%d-1)/2\n",x,x);
+        printf("%d",i);
     }    
     return 0;
 }
