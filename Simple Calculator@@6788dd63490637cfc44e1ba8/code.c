@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main() 
 {   
-    char z;
     int x, y;
-
+    char z;
+    
+    scanf("%d %d", &x, &y);
     scanf("%c", &z);  // Read operator
-    scanf("%d %d", &x, &y);  // Read two integers
+      // Read two integers
 
     if (z == '+') {
         printf("%d + %d = %d", x, y, x + y);
