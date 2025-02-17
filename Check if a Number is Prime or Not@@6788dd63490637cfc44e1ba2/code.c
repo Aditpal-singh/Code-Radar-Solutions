@@ -10,8 +10,9 @@ int main()
    {
     if(n%i!=0){
         printf("Prime");   
-    }
     break;
+    }
+    
     else{
         printf("Not Prime");
     }
