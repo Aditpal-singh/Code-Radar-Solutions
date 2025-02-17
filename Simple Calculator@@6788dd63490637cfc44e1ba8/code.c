@@ -1,16 +1,17 @@
 #include <stdio.h>
 int main() 
 {   
-    
-    int x,y;
-    
-    scanf("%d %d",&x, &y);
     char z;
-    scanf("%c",&z);
+    int x,y;
 
-    if(z=='+')
+    scanf("%c",&z);
+    scanf("%d %d",&x, &y);
+    
+
+    if(z =='+')
     {
-        printf("%d+%d=%d",x,y,x+y);
+        result = x + y;
+        printf("%d+%d=%d",result);
     }
     else if(z=='-')
     {
@@ -22,7 +23,7 @@ int main()
     }
     else if(z== '/')
     {
-        printf("%d'/'%d=%d",x,y,x/y);
+        printf("%d/%d=%d",x,y,x/y);
     }
     return 0;
 }
