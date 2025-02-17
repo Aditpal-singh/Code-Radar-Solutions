@@ -2,28 +2,29 @@
 int main() 
 {   
     char z;
-    int x,y;
+    int x, y;
 
-    scanf("%c",&z);
-    scanf("%d %d",&x, &y);
-    
+    scanf("%c", &z);  // Read operator
+    scanf("%d %d", &x, &y);  // Read two integers
 
-    if(z =='+')
-    {
-        result = x + y;
-        printf("%d",result);
+    if (z == '+') {
+        printf("%d + %d = %d", x, y, x + y);
     }
-    else if(z=='-')
-    {
-        printf("%d-%d=%d",x,y,x-y);
+    else if (z == '-') {
+        printf("%d - %d = %d", x, y, x - y);
     }
-    else if(z=='*')
-    {
-        printf("%d*%d=%d",x,y,x*y);
+    else if (z == '*') {
+        printf("%d * %d = %d", x, y, x * y);
     }
-    else if(z== '/')
-    {
-        printf("%d/%d=%d",x,y,x/y);
+    else if (z == '/') {
+        if (y != 0) {
+            printf("%d / %d = %d", x, y, x / y);
+        } else {
+            printf("Error! Division by zero is not allowed.");
+        }
+    } else {
+        printf("Invalid operator!\n");
     }
+
     return 0;
 }
