@@ -22,7 +22,7 @@ int main()
     }
     else if(z== '/')
     {
-        printf("%d/%d=%d",x,y,x/y);
+        printf("%d'/'%d=%d",x,y,x/y);
     }
     return 0;
 }
