@@ -11,7 +11,7 @@ int main()
     if(z =='+')
     {
         result = x + y;
-        printf("%d+%d=%d",result);
+        printf("%d",result);
     }
     else if(z=='-')
     {
