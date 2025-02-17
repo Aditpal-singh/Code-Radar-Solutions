@@ -20,11 +20,8 @@ int main()
         if (y != 0) {
             printf("%d / %d = %d", x, y, x / y);
         } else {
-            printf("Error! Division by zero is not allowed.");
+            printf("Error");
         }
-    } else {
-        printf("Invalid operator!\n");
-    }
-
+    } 
     return 0;
 }
