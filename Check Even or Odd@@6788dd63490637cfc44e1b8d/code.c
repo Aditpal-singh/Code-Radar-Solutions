@@ -4,6 +4,7 @@ int main()
 {
     int x;
     scanf("%d",&x);
+
     if(x%2==0)
     {
         printf("Even");
@@ -12,5 +13,4 @@ int main()
     {
         printf("Odd");
     }
-    return 0;
 }
