@@ -19,16 +19,16 @@ int main() {
     } 
     else if (op == '-') {
         result2 = num1 - num2;
-        printf("%lf", result2);
+        printf("%.0lf", result2);
     } 
     else if (op == '*') {
         result3 = num1 * num2;
-        printf("%lf", result3);
+        printf("%.0lf", result3);
     } 
     else if (op == '/') {
         if (num2 != 0) { // Prevent division by zero
             result4 = num1 / num2;
-            printf("%lf", result4);
+            printf("%.0lf", result4);
         } else {
             printf("error");
         }
