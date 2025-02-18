@@ -2,7 +2,7 @@
 
 int main() {
     int num1, num2;
-    double result;
+    double result1,result2,result3,result4;
     char op;
     scanf("%d", &num1);
     
@@ -14,23 +14,23 @@ int main() {
 
     // Performing operations using if-else
     if (op == '+') {
-        result = num1 + num2;
-        printf("Result: %d", result);
+        result1 = num1 + num2;
+        printf("Result: %d", result1);
     } 
     else if (op == '-') {
-        result = num1 - num2;
-        printf("Result: %d", result);
+        result2 = num1 - num2;
+        printf("Result: %d", result2);
     } 
     else if (op == '*') {
-        result = num1 * num2;
-        printf("Result: %d", result);
+        result3 = num1 * num2;
+        printf("Result: %d", result3);
     } 
     else if (op == '/') {
         if (num2 != 0) { // Prevent division by zero
-            result = num1 / num2;
-            printf("%d", result);
+            result4 = num1 / num2;
+            printf("%d", result4);
         } else {
-            printf("Error");
+            printf("error");
         }
     } 
     else {
