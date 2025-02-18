@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, result;
+    int num1, num2;
+    double result;
     char op;
     printf("Enter first number: ");
     scanf("%d", &num1);
