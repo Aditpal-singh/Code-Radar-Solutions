@@ -23,12 +23,12 @@ int main() {
     } 
     else if (op == '*') {
         result3 = num1 * num2;
-        printf("%d", result3);
+        printf("%lf", result3);
     } 
     else if (op == '/') {
         if (num2 != 0) { // Prevent division by zero
             result4 = num1 / num2;
-            printf("%d", result4);
+            printf("%lf", result4);
         } else {
             printf("error");
         }
