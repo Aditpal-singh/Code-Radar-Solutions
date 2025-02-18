@@ -15,7 +15,7 @@ int main() {
     // Performing operations using if-else
     if (op == '+') {
         result1 = num1 + num2;
-        printf("%lf", result1);
+        printf("%.0lf", result1);
     } 
     else if (op == '-') {
         result2 = num1 - num2;
@@ -23,7 +23,7 @@ int main() {
     } 
     else if (op == '*') {
         result3 = num1 * num2;
-        printf("0.6%lf", result3);
+        printf("%lf", result3);
     } 
     else if (op == '/') {
         if (num2 != 0) { // Prevent division by zero
