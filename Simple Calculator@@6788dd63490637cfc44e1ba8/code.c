@@ -15,15 +15,15 @@ int main() {
     // Performing operations using if-else
     if (op == '+') {
         result1 = num1 + num2;
-        printf("%d", result1);
+        printf("%lf", result1);
     } 
     else if (op == '-') {
         result2 = num1 - num2;
-        printf("%d", result2);
+        printf("%lf", result2);
     } 
     else if (op == '*') {
         result3 = num1 * num2;
-        printf("%lf", result3);
+        printf("0.6%lf", result3);
     } 
     else if (op == '/') {
         if (num2 != 0) { // Prevent division by zero
