@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    double num1, num2, result;
+    int num1, num2, result;
     char op;
     printf("Enter first number: ");
     scanf("%d", &num1);
@@ -32,11 +32,11 @@ int main() {
             result = num1 / num2;
             printf("%d", result);
         } else {
-            printf("Error: Division by zero is not allowed.\n");
+            printf("Error");
         }
     } 
     else {
-        printf("Invalid operator! Please use +, -, *, or /.\n");
+        printf("Invalid operator");
     }
 
     return 0;
