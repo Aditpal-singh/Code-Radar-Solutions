@@ -4,14 +4,11 @@ int main() {
     int num1, num2;
     double result;
     char op;
-    printf("Enter first number: ");
     scanf("%d", &num1);
     
-    printf("Enter second number: ");
     scanf("%d", &num2);
 
-    printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &op); // Note the space before %c to consume newline
+    scanf(" %c", &op); 
 
    
 
