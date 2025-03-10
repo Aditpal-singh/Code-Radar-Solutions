@@ -9,7 +9,7 @@ int main()
         int a=0;
         for(int j=1;j<=x-1-i;j++)
         {
-           printf("%d",a=a+1);
+           printf("%d ",a=a+1);
         }
         printf("\n");
     }
