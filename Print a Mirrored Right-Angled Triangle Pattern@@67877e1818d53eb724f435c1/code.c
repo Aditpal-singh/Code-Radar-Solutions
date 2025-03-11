@@ -12,5 +12,6 @@ int main()
         }
         for(int a=1;a<=i;a++)
         printf("*");
+        printf("\n");
     }
 }
