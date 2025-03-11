@@ -10,8 +10,9 @@ int main()
         {
             printf(" ");
         }
-        for(int a=1;a<=i;a++)
+        for(int a=1;a<=i;a++){
         printf("*");
+        }
         printf("\n");
     }
 }
