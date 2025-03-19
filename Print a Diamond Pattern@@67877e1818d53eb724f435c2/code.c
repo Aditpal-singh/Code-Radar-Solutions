@@ -1,4 +1,4 @@
-what is problem in this code #include <stdio.h>
+#include <stdio.h>
 int main()
 {
     int x;
@@ -16,7 +16,11 @@ int main()
         printf("*");
 
         for(int l=1;l<=x-i;l++)
-        printf(" ");}
+        printf(" ");
+
+        printf("\n");    
+
+    }
     for(int i=1;i<=x;i++)
     {
        for(int a=1;a<=i;a++)
