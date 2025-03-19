@@ -11,8 +11,8 @@ int main()
         else a==1;
         for(int j=1;j<=i;j++)
         {
-            if(a==1) a=0
-            else a==1
+            if(a==1) a=0;
+            else a==1;
 
             printf("%d",a);            
             
