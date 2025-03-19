@@ -18,6 +18,12 @@ int main()
         for(int l=1;l<=x-i;l++)
         printf(" ");
 
+        for(int a=1;a<=i;a++)
+        printf(" ");
+
+        for(int s=1;s<=x-i;s++)
+        printf("*");
+
     printf("\n");
     }
 }
