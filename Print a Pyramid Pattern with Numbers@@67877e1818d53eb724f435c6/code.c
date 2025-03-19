@@ -10,12 +10,9 @@ int main()
         for(int j=1;j<=x-i;j++)
         printf(" ");
 
-        for(int k=1;k<=2*i-1;k++)
-        printf("%d ",a);
-        a++;
-        for(int a=1;a<=x-i;a++)
-        printf(" ");
-
+        for(int k=1;k<=i;k++)
+        printf("%d ",i);
+        
         printf("\n");
     }
 }
