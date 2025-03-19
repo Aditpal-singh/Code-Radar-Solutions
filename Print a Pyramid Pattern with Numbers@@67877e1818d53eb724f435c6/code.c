@@ -14,10 +14,10 @@ int main()
         {
             printf("*");
         }
-        // for(int l=1;l<=i;l++)
-        // {
-        //     printf("*");
-        // }
+        for(int l=2;l<=i;l++)
+        {
+            printf("*");
+        }
 
         printf("\n");
     }
