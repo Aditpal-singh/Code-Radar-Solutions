@@ -6,18 +6,18 @@ int main()
 
     for(int i=1;i<=x;i++)
     {
-        // for(int j=1;j<=x-i;j++)
-        // {
-        //     printf(" ");
-        // }
-        for(int k=2;k<=x;k++)
+        for(int j=1;j<=x-i;j++)
+        {
+            printf(" ");
+        }
+        for(int k=1;k<=x;k++)
         {
             printf("*");
         }
-        // for(int l=2;l<=i;l++)
-        // {
-        //     printf("*");
-        // }
+        for(int l=2;l<=i;l++)
+        {
+            printf("*");
+        }
 
         printf("\n");
     }
