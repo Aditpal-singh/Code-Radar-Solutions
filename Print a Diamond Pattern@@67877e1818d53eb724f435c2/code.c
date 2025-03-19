@@ -24,8 +24,8 @@ int main()
         for(int s=1;s<=x-i;s++)
         printf("*");
 
-        // for(int z=2;z<=x-i;z++)
-        // printf("*");
+        for(int z=2;z<=x-i;z++)
+        printf("*");
 
         for(int y=1;y<=i;y++)
         printf(" ");
