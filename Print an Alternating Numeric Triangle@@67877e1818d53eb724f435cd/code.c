@@ -4,6 +4,7 @@ int main()
     int x;
     scanf("%d",&x);
 
+    int a;
     for(int i=1;i<=x;i++)
     {
         if(a%2==0) a==0
