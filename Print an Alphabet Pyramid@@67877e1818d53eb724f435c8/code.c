@@ -8,7 +8,6 @@ int main()
     for(int i=1;i<=x;i++)
     {   
         int a=65;
-        char ch = (char)a;
 
         for(int k=1;k<=i;k++)
         
