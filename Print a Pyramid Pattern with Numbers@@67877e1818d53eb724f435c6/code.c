@@ -10,7 +10,7 @@ int main()
         // {
         //     printf(" ");
         // }
-        for(int k=1;k<=x;k++)
+        for(int k=2;k<=x;k++)
         {
             printf("*");
         }
