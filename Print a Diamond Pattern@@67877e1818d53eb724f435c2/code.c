@@ -18,6 +18,8 @@ int main()
         for(int l=1;l<=x-i;l++)
         printf(" ");
 
+        printf("\n");
+
         for(int a=1;a<=i;a++)
         printf(" ");
 
