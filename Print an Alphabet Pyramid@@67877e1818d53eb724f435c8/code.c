@@ -7,8 +7,9 @@ int main()
     int a=65;
     char ch = (char)a;
     for(int i=1;i<=x;i++)
-    {
-            char ch = (char)a;
+    {   
+        int a=65;
+        char ch = (char)a;
 
         for(int k=1;k<=i;k++)
         
