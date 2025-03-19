@@ -13,7 +13,7 @@ int main()
         for(int k=1;k<=2*i-1;k++)
         printf("%d ",a);
         a++;
-        for(int a=2;a<=x-i;a++)
+        for(int a=1;a<=x-i;a++)
         printf(" ");
 
         printf("\n");
