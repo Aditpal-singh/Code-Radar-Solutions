@@ -12,7 +12,8 @@ int main()
         }
         for(int k=1;k<=i;k++)
         {
-            printf(i);
+            printf("*");
         }
+        printf("\n");
     }
 }
