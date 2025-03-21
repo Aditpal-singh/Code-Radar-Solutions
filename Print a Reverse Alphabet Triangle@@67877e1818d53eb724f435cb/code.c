@@ -3,15 +3,14 @@ int main()
 {
     int x;
     scanf("%d",&x);
-
-
-    int a=x;
+    int a = 65;
     for(int i=1;i<=x;i++)
     {
-        for(int j=1;j<=x-1+i;j++)
+        for(int j=1;j<=x+i-1;j++)
         {
-            printf("%d",a);
-            a--;
+            int d = (char)a;
+            printf("%d",d);
+            d--;
         }
 
         printf("\n");
