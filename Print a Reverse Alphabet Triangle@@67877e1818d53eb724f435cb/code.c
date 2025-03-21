@@ -8,7 +8,8 @@ int main()
     {
         for(int j=1;j<=x+1-i;j++)
         {
-            printf("%d",a);
+            int d = (char)a;
+            printf("%c",ch);
             
         }
 
