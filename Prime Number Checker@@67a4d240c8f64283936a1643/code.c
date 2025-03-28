@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to check if a number is prime
-int isPrime() {
+int isPrime(int num) {
     if (num <= 1) return 0; // 0 and 1 are not prime
     
     for (int i = 2; i * i <= num; i++) { // Optimized loop (√num)
@@ -17,8 +17,7 @@ int main() {
     while (t--) { 
         int num;
         scanf("%d", &num);
-        isprime();
-
+        printf("%d\n", isPrime(num)); // Print result (1 or 0)
     }
 
     return 0;
