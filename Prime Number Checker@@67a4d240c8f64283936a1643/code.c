@@ -18,5 +18,14 @@ void primenumberchecker()
 }
 int main()
 {
-    primenumberchecker();
+    int t;
+    scanf("%d",&num);
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        printf("%d\n",isprime(num));
+
+    }
+}
+return 0;
 }
