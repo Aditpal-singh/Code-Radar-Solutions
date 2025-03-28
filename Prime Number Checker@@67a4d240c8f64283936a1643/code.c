@@ -1,23 +1,24 @@
 #include <stdio.h>
 
 // Function to check if a number is prime
-int isPrime(int num) {
+int isPrime() {
     if (num <= 1) return 0; // 0 and 1 are not prime
     
     for (int i = 2; i * i <= num; i++) { // Optimized loop (√num)
         if (num % i == 0)
     }
-    return 1; // Prime
+    return 1; 
 }
 
 int main() {
     int t;
-    scanf("%d", &t); // Read number of test cases
+    scanf("%d", &t); 
 
-    while (t--) { // Loop for multiple test cases
+    while (t--) { 
         int num;
         scanf("%d", &num);
-        printf("%d\n", isPrime(num)); // Print result (1 or 0)
+        isprime();
+
     }
 
     return 0;
