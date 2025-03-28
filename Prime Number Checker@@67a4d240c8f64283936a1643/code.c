@@ -1,12 +1,11 @@
 
 
-// Function to check if a number is prime
 int isPrime(int num) {
-    if (num <= 1) return 0; // 0 and 1 are not prime
+    if (num <= 1) return 0;
 
-    for (int i = 2; i * i <= num; i++) { // Optimized loop (√num)
+    for (int i = 2; i <= num-1; i++) { 
         if (num % i == 0) 
-            return 0; // Found a divisor, not prime
+            return 0; 
     }
-    return 1; // Prime number
+    return 1; 
 }
