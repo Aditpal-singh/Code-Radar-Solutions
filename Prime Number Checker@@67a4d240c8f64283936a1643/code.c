@@ -1,5 +1,5 @@
 #include <stdio.h>
-void primenumberchecker()
+void isprime(num)
 {
     int x;
     scanf("%d",&x);
@@ -11,10 +11,10 @@ void primenumberchecker()
         isprime = 0;
     }
     if(isprime)
-    printf("prime number ");
+    printf("1");
     else
-    printf("not prime ");
-    
+    printf("0");
+    return;
 }
 int main()
 {
