@@ -6,7 +6,6 @@ int isPrime(int num) {
     
     for (int i = 2; i * i <= num; i++) { // Optimized loop (√num)
         if (num % i == 0)
-            return 0; // Not prime
     }
     return 1; // Prime
 }
