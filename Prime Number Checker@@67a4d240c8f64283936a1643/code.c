@@ -10,16 +10,3 @@ int isPrime(int num) {
     }
     return 1; // Prime number
 }
-
-int main() {
-    int t;
-    scanf("%d", &t); 
-
-    while (t--) { 
-        int num;
-        scanf("%d", &num);
-        printf("%d\n", isPrime(num)); // Print result (1 for prime, 0 for not prime)
-    }
-
-    return 0;
-}
